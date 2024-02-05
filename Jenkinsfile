@@ -6,8 +6,7 @@ node('built-in')
 stage('continuous download') 
 {
     
-    git 'https://github.com/selenium-saikrishna/maven.git'
-    
+    git 'https://github.com/vinaylally/jenkins.git'    
 }
 
 stage('continuous build') 
